@@ -1,0 +1,28 @@
+{
+  "name": "kafka-rest-api",
+  "version": "1.0.0",
+  "description": "rest api üzerinden event alıp kafkaya basan demo uygulama",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "restful",
+    "api",
+    "kafka",
+    "evam",
+    "event"
+  ],
+  "author": "mustafa celik",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "kafka-node": "^5.0.0",
+    "body-parser": "latest",
+    "debug": "latest"
+  }
+}
